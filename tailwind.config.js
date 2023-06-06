@@ -13,7 +13,7 @@ module.exports = {
       },
       fontFamily: {
         pac: ['Pacifico', 'cursive'],
-        serif: ['Bungee Spice', 'cursive'],
+        
       },
     },
   },
