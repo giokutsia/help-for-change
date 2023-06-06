@@ -1,9 +1,26 @@
 import NavBar from "../components/NavBar"
+import { BrowserRouter, Routes, Route, } from "react-router-dom"
+import About from "./about"
+import ContactUs from "./contact"
+import Content from "./content"
 const Main = () => {
     return(
         <div>
-            <NavBar />
-            <h1 className="text-lime-500">Main page</h1>
+            <BrowserRouter>
+                <NavBar />
+                <Routes>
+                    <Route path="/"  element={<Content />}/>
+                    <Route path="/about" element={<About/>} /> 
+                    <Route path="/Contact" element={<ContactUs/>} />
+                </Routes>
+            </BrowserRouter>
+           
+                
+               
+                
+            
+            
+            
            
         </div>
     )
