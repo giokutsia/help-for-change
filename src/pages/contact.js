@@ -1,7 +1,7 @@
 const ContactUs = () => {
     return(
-        <div>
-            <h1>Contact</h1>
+        <div className="flex justify-center items-center h-screen">
+          contact
         </div>
     )
 }

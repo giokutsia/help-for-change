@@ -1,8 +1,10 @@
 
 const About = () => {
     return(
-        <div>
-            <h1>About Page</h1>
+        <div className="flex justify-center items-center h-screen dark:bg-black">
+         
+            <h1>about</h1>
+          
         </div>
     )
 } 
